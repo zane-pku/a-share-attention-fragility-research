@@ -1,0 +1,52 @@
+[
+  {
+    "upstream": "worldbank/blackmarblepy",
+    "reviewed_commit": "4c6ae86515772b69f3adc870e86dab8f849fecfb",
+    "fork": "zane-pku/blackmarblepy",
+    "fork_url": "https://github.com/zane-pku/blackmarblepy",
+    "visibility": "public",
+    "fork_tip": "4c6ae86515772b69f3adc870e86dab8f849fecfb",
+    "license_spdx": "MIT",
+    "upstream_pushed_at": "2026-11-02T19:16:36Z"
+  },
+  {
+    "upstream": "X-lab2017/open-digger",
+    "reviewed_commit": "dcf69edcb0e9e29c0dcd76c65a38840b8847a45d",
+    "fork": "zane-pku/open-digger",
+    "fork_url": "https://github.com/zane-pku/open-digger",
+    "visibility": "public",
+    "fork_tip": "dcf69edcb0e9e29c0dcd76c65a38840b8847a45d",
+    "license_spdx": "Apache-2.0",
+    "upstream_pushed_at": "2026-11-23T06:59:25Z"
+  },
+  {
+    "upstream": "alex9smith/gdelt-doc-api",
+    "reviewed_commit": "41220163fbab99982e4dca3a05d25a95b49896d7",
+    "fork": "zane-pku/gdelt-doc-api",
+    "fork_url": "https://github.com/zane-pku/gdelt-doc-api",
+    "visibility": "public",
+    "fork_tip": "41220163fbab99982e4dca3a05d25a95b49896d7",
+    "license_spdx": "MIT",
+    "upstream_pushed_at": "2025-04-22T07:56:43Z"
+  },
+  {
+    "upstream": "dgunning/edgartools",
+    "reviewed_commit": "b3911eecac7f2fad08d8debbdc157f2bec7a77e6",
+    "fork": "zane-pku/edgartools",
+    "fork_url": "https://github.com/zane-pku/edgartools",
+    "visibility": "public",
+    "fork_tip": "b3911eecac7f2fad08d8debbdc157f2bec7a77e6",
+    "license_spdx": "MIT",
+    "upstream_pushed_at": "2026-11-26T21:05:26Z"
+  },
+  {
+    "upstream": "MAPS-Lab/AISdb",
+    "reviewed_commit": "55db7c9e9a6e41901f4e4d8e4f24161a4788c59b",
+    "fork": "zane-pku/AISdb",
+    "fork_url": "https://github.com/zane-pku/AISdb",
+    "visibility": "public",
+    "fork_tip": "55db7c9e9a6e41901f4e4d8e4f24161a4788c59b",
+    "license_spdx": "AGPL-3.0",
+    "upstream_pushed_at": "2026-11-25T02:14:32Z"
+  }
+]
