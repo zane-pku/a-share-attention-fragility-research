@@ -1,0 +1,6 @@
+data/
+inputs/
+*.sqlite*
+__pycache__/
+.venv/
+.env

@@ -1,0 +1,48 @@
+{
+  "public-snapshot.json": {
+    "sha256": "aee8865871832d1a7dd446a6628a9188d100d00a4ce707e63b6b76fe01e053d7",
+    "bytes": 3780399,
+    "generated_at": "2026-11-24T00:17:35.823916+08:00",
+    "origin": "Wind/data_interface history through 2026-08-07; Ricequant RQData incremental thereafter"
+  },
+  "market-profit-effect-snapshot.json": {
+    "sha256": "2a76f6407946199d547bd7a3bc6d063077a029607ba6ed5f5d05da1ebf4478b0",
+    "bytes": 323768,
+    "generated_at": "2026-11-24T00:18:13+08:00",
+    "origin": "Reviewed Excel history; RQData incremental stock data and CSI 800 membership; Wind/data_interface 881001 benchmark"
+  },
+  "financing-snapshot.json": {
+    "sha256": "86501bfd8415c6e0c7574ca1e20c244e13c71c4245723d6773c4d7e12e8803d2",
+    "bytes": 2773091,
+    "generated_at": "2026-11-24T00:18:47+08:00",
+    "origin": {
+      "margin_balance": "Ricequant RQData",
+      "market_value_and_industry": "Wind/data_interface history through 2026-08-06; Ricequant RQData from 2026-08-07",
+      "industry_rq_cutover_date": "2026-08-07",
+      "incremental_universe": "XSHG/XSHE active common stocks only"
+    }
+  },
+  "review_xlsx": {
+    "sha256": "54a36640d10ae8e53ae5b20915d9b1e9caf455a488175fea1d93050d131c83e1",
+    "rows": 2812,
+    "first": "2015-01-05",
+    "last": "2026-07-30",
+    "index_alignment": {
+      "上证%": {
+        "n": 2812,
+        "miss_or_abs_diff_gt_6bp": 0,
+        "median_absolute_error": 2.50721654016943e-05
+      },
+      "创业板%": {
+        "n": 2812,
+        "miss_or_abs_diff_gt_6bp": 0,
+        "median_absolute_error": 2.5096549319209537e-05
+      }
+    },
+    "breadth_count_audit": {
+      "limit_up_gt_advance": 0,
+      "limit_down_gt_decline": 0,
+      "zero_limit_up": 0
+    }
+  }
+}
