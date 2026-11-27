@@ -25,7 +25,7 @@ python adapters/market/export_market.py --snapshot-dir inputs/dashboard --start 
 python adapters/market/stage_market_board.py --as-of 2026-11-28T00:30:00+08:00 --out out market.json crowding.json community.json shortline.json
 ```
 
-- `market-board-preview.json` 隔离四个区域，列出各序列覆盖与最后观测。现实线上状态和预览截止时点应分别显示。
+- `market-board-preview.json` 隔离四个区域，列出序列覆盖、最新日期的状态、最近成功观测和按自然日计算的滞后。最新值为空时，最近成功观测仍有独立位置。现实线上状态和预览截止时点应分别显示。
 - `crowding-refresh-candidate.json` 按平台 V2 批次形状给出**仅包含拥挤度分位**的候选，序列默认禁用、使用研究前缀，缺值保留在预览并从批次移除。
 - 导出格式为 `{"version": 1, "records": [...]}`。每条包含 family、scope、date、metric、value、unit、available_at、state、method，可选 coverage。scope 和 metric 使用可版本维护的 ASCII 编号。无值必须用 `unobserved` 与 null。时间戳须带时区。重复键、量纲冲突、口径冲突、非法数值在预览入口拒绝。
 - 上游口径切换须拆系列。对于任意可见时点，预览仅纳入观测日不晚于当时交易日、可见时间不晚于截止时间的值。已知缺测状态也单独保留。

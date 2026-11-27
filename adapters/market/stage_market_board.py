@@ -78,9 +78,12 @@ def stage(payloads, as_of):
     for (fam, scope, metric), section in sorted(series.items()):
         points = sorted(section["points"],key=lambda r:r["date"])
         value_count = sum(x["state"]=="observed" for x in points)
+        latest_seen = next((p for p in reversed(points) if p["state"] == "observed"), None)
+        age = (now.astimezone(LOCAL).date() - date.fromisoformat(latest_seen["date"])).days if latest_seen else None
         groups.setdefault(CATEGORIES[fam],[]).append(
             {"scope":scope,"metric":metric,"unit":section["unit"],"method":section["method"],
-             "n":len(points),"observed":value_count,"latest":points[-1]})
+             "n":len(points),"observed":value_count,"observation_rate":value_count/len(points),
+             "latest":points[-1],"latest_observed":latest_seen,"calendar_age_days":age})
         factor = CROWDING_NAMES.get(metric.removesuffix("_5d_percentile"))
         if fam != "crowding" or not factor or not metric.endswith("_5d_percentile") or section["unit"] != "percentile_0_100" or not value_count:
             continue
