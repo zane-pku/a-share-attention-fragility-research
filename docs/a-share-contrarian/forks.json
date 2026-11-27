@@ -1,0 +1,16 @@
+[
+  {
+    "upstream": "rootSunc/CNEquity",
+    "fork": "https://github.com/zane-pku/CNEquity",
+    "license": "Apache-2.0",
+    "reviewed": "dd6881ad7a3e8fce4ed4314711c99f6251ec06f8",
+    "head": "dd6881ad7a3e8fce4ed4314711c99f6251ec06f8"
+  },
+  {
+    "upstream": "akfamily/akshare",
+    "fork": "https://github.com/zane-pku/akshare",
+    "license": "MIT",
+    "reviewed": "2864afc111ae6ffdbfd64673f4ba649af5a96926",
+    "head": "2864afc111ae6ffdbfd64673f4ba649af5a96926"
+  }
+]
