@@ -1,0 +1,16 @@
+﻿编号,来源,日期,证据类型,核对了什么,适用边界,链接
+R01,华泰证券 A股情绪温度计,2026-03-18,研报客文本＋作者公众号转载,融资净买入、行业ETF申购、CDS、持仓PCR、隐波、MACD与乖离；警惕静态极值钝化,报告组合的回报和阈值没有在本轮复刻,https://finance.sina.com.cn/wm/2026-03-18/doc-inhrkfux7605158.shtml
+R02,渤海证券 A股市场情绪的监测,2026-08-20,作者公众号发布稿,换手、前三行业成交占比、赚钱效应、融资和ERP的框架；动量与反转依期限变化,盘面指标作为行为因子对照,https://finance.sina.com.cn/stock/stockzmt/2026-08-20/doc-ininxkrs8078272.shtml
+R03,渤海证券 A股行业情绪的监测,2026-10-29,研报客正文＋公开研报摘要,五个分项按两年滚动标准化并等权；极值按行业波动和期限拆分,研报客条目日期为11-08；作者报告日期以公开研报信息为准,https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/strategy/rptid/846588693204/index.phtml
+R04,广发策略 新一轮情绪周期底部的信号显现,2026-06-14,作者公众号发布稿,时间序列分位、短线情绪极值、全A与双创分开观察,报告举例不是独立反向因子证明,https://finance.sina.com.cn/wm/2026-06-14/doc-inickrir8872498.shtml
+R05,Salience and return reversals: Evidence from China,2026,同行评审论文,使用股吧发帖量作为个股关注代理，讨论注意力与短期反转,个股样本不推到指数；文献 DOI 中含2025,https://www.sciencedirect.com/science/article/abs/pii/S0927538X25003749
+R06,系统管理学报 A股散户关注研究,2026,期刊摘要,市场、行业、个股尺度有不同延续和反转结果,看不到全文参数的部分保留为未核对,https://coaa.istic.ac.cn/openjournal/periodicalArticle/0120260401706715
+R07,上交所股票期权每日统计,持续发布,交易所原始字段,成交量和未平仓张数按认购认沽拆分，已有三日复算,尚未用该来源完成长样本期权反转检验,https://star.sse.com.cn/assortment/options/date/
+R08,上交所投资者月报,持续发布,交易所原始字段,个人和机构A股新开账户有各自字段,上交所账户不等于全市场新投资者,https://star.sse.com.cn/aboutus/publication/monthly/investor/
+R09,Vibe AStock,固定分支,开源项目,昨日涨停当日表现、1进2、炸板及归档,需要授权或可用的长历史行情与成分,https://github.com/zane-pku/vibe-astock/tree/mangrove/shortline
+R10,宝妈·小白·散户社区情绪指数,固定分支,开源项目,固定渠道、等权、缺测与中性收缩、文本表达标签,公开演示无法还原真实首见历史,https://github.com/zane-pku/baoma-xiaobai-sanhu-zhishu/tree/mangrove/community-attention
+R11,华创证券 鼎沸：牛市中的自媒体,2024-10-27,研报客正文＋公开研报摘要,跟踪微信、百度、小红书、抖音、快手等，发现阶段性平台扩散差异,2024年9至10月个案，需独立新样本,https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/783382178247/index.phtml
+R12,招商期货 金工股票策略环境监控周报,2026-03-08,公开券商PDF,持仓认购认沽比按品种展示，提示与沽购比方向互为倒数,报告监测框架，不确认单因子预测,https://notice.10jqka.com.cn/api/original/4b8d256edc471874.pdf
+R13,华创证券 流动性与投资者温度计周报,2026-11-24,公开平台报告摘要,将短视频作品、互动和同花顺／东财下载分栏,公开摘要为案例，历史口径与数据授权待核实,https://www.fxbaogao.com/detail/5909892
+R14,交银国际 从百度搜索看A股情绪,2021-06-17,作者网站研报PDF搜索片段,观察暴跌、维稳等悲观词，提示热度和情绪方向需分开,本轮PDF直接请求超时，仅作追索线索,https://files.bocomgroup.com/download/Economics-210617s.pdf
+R15,A股反向指标事件研究,2026-11-27,自有回测,5／20／60日配对、三宽基及10条条件,回顾性规则，社交信号尚无授权样本,https://github.com/zane-pku/a-share-attention-fragility-research/tree/mangrove/a-share-contrarian/docs/a-share-contrarian
